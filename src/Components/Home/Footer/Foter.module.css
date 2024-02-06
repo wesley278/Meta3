@@ -1,0 +1,102 @@
+.FundoFooter {
+  width: 100%;
+  margin-top: 70px;
+  height: 200px;
+  background-color: #262424;
+}
+.FoterTextoLogo {
+  display: flex;
+  width: 100%;
+  height: 100px;
+}
+.HeaderFooter {
+  width: 40%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  color: #fff;
+  cursor: pointer;
+}
+.HeaderFooter h2 {
+  padding-left: 15px;
+}
+.IconsFoter {
+  color: #fff;
+  border-radius: 50px;
+  float: right;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+.IconsFoterDois {
+  color: #fff;
+  border-radius: 100px;
+  float: right;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+.BoxIconsFoter {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+}
+.Endereco {
+  color: #fff;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+.Copy {
+  width: 100%;
+  height: 40px;
+
+  text-align: center;
+  border-top: 1px solid #ffe500;
+}
+.Copy h4 {
+  font-weight: 800;
+  font-size: 15px;
+  color: #fff;
+  align-items: center;
+  margin-top: 10px;
+}
+@media only screen and (max-width: 430px) and (min-width: 360px) {
+  .FundoFooter{
+    width: 100%;
+    height: auto;
+
+  }
+  .logoFooter{
+    width: 90%;
+    margin: auto;
+  }
+  .FoterTextoLogo{
+    width: 100%;
+    display: block;
+  }
+  .BoxIconsFoter{
+
+    width: 30%;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 359px) and (min-width: 320px){
+  .FundoFooter{
+    width: 100%;
+    height: auto;
+
+  }
+  .logoFooter{
+    width: 80%;
+    ;
+  }
+  .FoterTextoLogo{
+    width: 100%;
+    display: block;
+  }
+  .BoxIconsFoter{
+
+    width: 30%;
+    margin: auto;
+  }
+}

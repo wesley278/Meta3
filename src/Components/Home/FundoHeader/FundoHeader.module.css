@@ -1,0 +1,138 @@
+
+.fundo{
+    width: 100%;
+  
+    height: 120vh;
+    background-image: url(../../../img/Fundoheader.svg);
+    background-repeat: no-repeat;
+}.Boxtextocomeco{
+    width: 68%;
+    height: 200px;
+    margin: auto;
+    padding-top: 320px;
+
+    
+}
+.Primerotexto{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+   
+}
+.Primerotexto span {
+    color: #ffe500;
+}
+.boxButtonConato{
+    text-align: center;
+}
+.entreContato{
+    padding: 20px 50px;
+    font-size: 20px;
+    background-color: #ffe500;
+    border-radius: 10px;
+    border: none;
+    margin: auto;
+    width: 30%;
+    margin-top: 60px;
+    cursor: pointer;
+    transition: 1s;
+    font-weight: bold;
+    
+}
+.entreContato:hover{
+
+
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 2px;
+}
+@media only screen and (max-width: 430px) and (min-width: 360px)  {
+
+    .fundo{
+        display: block;
+        background-repeat: no-repeat;
+        
+        width: 100%;
+        height: 90vh;
+        background-image: url(../../../img/FundoMobile.svg);
+        
+    }
+    .Boxtextocomeco{
+        display: block; 
+        height: auto;
+        width: 100%;
+        
+    }
+    .Primerotexto{
+        font-size: 25px;
+        width: 80%;
+        height: auto;
+        margin: auto;
+        margin-top: -37px;
+    }
+    .entreContato{
+        display: block;
+        width: 70%;
+        font-size: 15px;
+        
+    
+    }
+  
+    
+    }
+    @media only screen and (max-width: 359px) and (min-width: 320px){
+
+        .fundo{
+            display: block;
+            background-repeat: no-repeat;
+            
+            width: 100%;
+            height: 130vh;
+            background-image: url(../../../img/FundoMobile.svg);
+            
+        }
+        .Boxtextocomeco{
+            display: block; 
+            height: auto;
+            width: 100%;
+            
+        }
+        .Primerotexto{
+            font-size: 25px;
+            width: 80%;
+            height: auto;
+            margin: auto;
+            margin-top: -90px;
+        }
+        .entreContato{
+            display: block;
+            width: 70%;
+            font-size: 15px;
+            
+        
+        }
+      
+    }
+    @media only screen and (max-width: 884px) and (min-width: 768px){
+        .fundo{
+            display: block;
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 100%;
+            height: 90vh;
+            
+        }
+        .Primerotexto{
+          font-size: 34px;
+            width: 100%;
+            height: auto;
+            margin: auto;
+            margin-top: -37px;
+        } 
+        .entreContato{
+            display: block;
+            width: 70%;
+            font-size: 25px      
+        
+        }
+    }
+    

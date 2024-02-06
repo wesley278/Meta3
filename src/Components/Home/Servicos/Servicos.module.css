@@ -1,0 +1,215 @@
+.BoxMainServicos{
+    width: 100%;
+    height: 90vh;
+    background-color: #f9f9f9;
+}
+.BoxTextoServicos{
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+.BoxTextoServicos h1{
+   margin: auto;
+    width: 15%;
+    font-size: 24px;
+    margin-top: 100px;
+    border-bottom: solid 2px #00000054 ;
+}
+.BoxTextoServicos h2{
+    font-size: 50px;
+    margin-top: 40px;
+    font-weight: 100;
+}
+.BoxTextoServicos h4{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.BoxAllQuadrados{
+    width: 100%;
+    height: 45vh;
+    background-color: #f9f9f9;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+.BoxAllQuadrados .BoxQuadrado{
+ width: 23%;
+ height: 95%;
+ background-color: #f9f9f9;
+ margin-top: 6px;
+ border-radius: 10px;
+ border: solid 2px #ffe500;
+ transition:   2s;
+ cursor: pointer;
+
+
+    
+}
+.BoxAllQuadrados .BoxQuadrado:hover{
+    transform: scale(1);
+    box-shadow: 0px 0px 20px 10px #ffe500;
+  
+}
+
+.BoxIcone{
+    width: 30%;
+    height: 70px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.BoxMiniTexto{
+    width: 100%;
+    height: auto
+
+}
+.BoxMiniTexto h1{
+    color: #000000;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 35px;
+} 
+.BoxMiniTexto p{
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.BoxButonSaiba{
+    width: 100%;
+    height: auto;
+    
+}
+.BoxButonSaiba .SaibaFachadas{
+background-color: #f9f9f9;
+    border: none;
+    margin-top: 20px    ;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    background:transparent;
+}   
+.BoxButonSaiba .SaibaInteriores{
+    background-color: #f9f9f9;
+    border: none;
+    margin-top: 40px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    background:transparent;
+}
+.BoxButonSaiba .SaibaCobertura{
+    background-color: #f9f9f9;
+    border: none;
+    margin-top: 40px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    background:transparent;
+
+}
+.BoxButonSaiba .SaibaIdentidade{
+    background-color: #f9f9f9;
+    border: none;
+    margin-top: 40px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    background:transparent;
+}
+.arrowIcone{
+    margin-top: 8x;
+    margin-left: 10px;
+    
+}
+@media only screen and (max-width: 430px) and (min-width: 360px){
+    .BoxMainServicos{
+        width: 100%;
+    }
+    .BoxTextoServicos h1{
+        width: 50%;
+    
+    }
+    .BoxTextoServicos h2{
+        font-size: 20px;
+    
+    }
+    .BoxTextoServicos h4{
+
+        font-size: 14px;
+        width: 80%;
+        margin:10px auto;
+    
+    }
+    .BoxAllQuadrados{
+        width: 100%;
+        display: block;
+        height: auto;
+ 
+    }
+    .BoxAllQuadrados .BoxQuadrado{
+        display: block;
+        width: 80%;
+ 
+        margin: 30px auto;
+    }
+  
+}
+@media only screen and (max-width: 359px) and (min-width: 320px){
+    .BoxMainServicos{
+        width: 100%;
+    }
+    .BoxTextoServicos h1{
+        width: 50%;
+    
+    }
+    .BoxTextoServicos h2{
+        font-size: 20px;
+    
+    }
+    .BoxTextoServicos h4{
+
+        font-size: 14px;
+        width: 80%;
+        margin:10px auto;
+    
+    }
+    .BoxAllQuadrados{
+        width: 100%;
+        display: block;
+        height: auto;
+ 
+    }
+    .BoxAllQuadrados .BoxQuadrado{
+        display: block;
+        width: 80%;
+ 
+        margin: 30px auto;
+    }
+  
+}
+@media only screen and (max-width: 884px) and (min-width: 768px){
+    .BoxAllQuadrados{
+        width: 100%;
+
+        height: auto;
+        flex-wrap:wrap
+ 
+    }
+    
+    .BoxAllQuadrados .BoxQuadrado{
+      
+        width: 40%;
+ 
+        margin: 30px auto;
+    }
+}

@@ -1,0 +1,303 @@
+.BoxGrande {
+  width: 100%;
+  height: 90vh;
+  background-color: #f9f9f9;
+  position: relative;
+}
+.BoxMini {
+  width: 80%;
+  height: 90vh;
+  background-color: #f9f9f9;
+  top: -40px;
+  position: absolute;
+  left: 11%;
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px 10px #000;
+}
+.boxDasDivs {
+  width: 100%;
+  height: 60%;
+  display: flex;
+}
+.fotoFundo {
+  width: 50%;
+  height: 60%;
+}
+.FundoTextoDireita {
+  width: 50%;
+  height: 60%;
+}
+.FotoEcolher {
+  width: 90%;
+  height: 43vh;
+
+  margin: auto;
+  margin-top: 43px;
+  border-radius: 20px;
+}
+.FotoEcolher img{
+  width: 100%;
+  height: 100%;
+} 
+.FundoTextoEscolher {
+  width: 100%;
+  height: 43vh;
+  background-color: #f9f9f9;
+  margin: auto;
+  margin-top: 43px;
+}
+.FundoTextoEscolher h1 {
+  font-size: 15px;
+  opacity: 80%;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.FundoTextoEscolher h2 {
+  font-size: 30px;
+  margin-top: 30px;
+}
+.FundoTextoEscolher p {
+  font-size: 20px;
+  background-color: blacks;
+  margin-top: 30px;
+  letter-spacing: 2px;
+}
+.FundoTextoEscolher p span {
+  color: #ffe500;
+}
+.vantagens {
+  width: 100%;
+  height: 220px;
+
+  display: flex;
+}
+.vantagensEsquerdas {
+  width: 50%;
+  height: 200px;
+  padding-left: 70px;
+}
+.vantagensDireitas {
+  width: 50%;
+  height: 200px;
+  padding-left: 70px;
+}
+
+.Divicone {
+  width: 10%;
+  height: 20px;
+  background-color: rgb(255, 255, 255);
+}
+.BoxMiniTextoVantagensUM {
+  display: flex;
+  height: 100px;
+  margin-top: 30px;
+}
+.BoxMiniTextoVantagensUM h1 {
+  font-size: 20px;
+  opacity: 80%;
+}
+.BoxMiniTextoVantagensUM p {
+  margin-top: 10px;
+}
+.BoxMiniTextoVantagensDois {
+  display: flex;
+  width: 100%;
+}
+.BoxMiniTextoVantagensDois h1 {
+  font-size: 20px;
+  opacity: 80%;
+}
+.BoxMiniTextoVantagensDois p {
+  margin-top: 10px;
+}
+.buttonContato {
+  padding: 13px 50px;
+  font-size: 16px;
+  background-color: #ffe500;
+  border-radius: 10px;
+  border: none;
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: 1s;
+  font-weight: bold;
+  transition: 2s;
+}
+.buttonContato:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px 2px #000;
+}
+.ButtonBox {
+  width: 100%;
+
+  text-align: center;
+}
+@media only screen and (max-width: 430px) and (min-width: 360px) {
+  .BoxGrande {
+    width: 100%;
+    height: 1200px;
+  }
+  .BoxMini {
+    left: 20px;
+    width: 90%;
+    height: 1200px;
+  }
+  .FundoTextoEscolher {
+    width: 90%;
+    margin: auto;
+  }
+  .FundoTextoEscolher p {
+    font-size: 18px;
+  }
+  .boxDasDivs {
+    display: block;
+  }
+  .fotoFundo {
+    width: 98%;
+    height: 300px;
+    margin: auto;
+  }
+  .FotoEcolher {
+    height: 300px;
+  }
+  .vantagens {
+    display: block;
+  }
+  .vantagensEsquerdas {
+    width: 100%;
+    height: auto;
+    margin-left: 7px;
+  }
+  .vantagensDireitas {
+    width: 100%;
+    height: auto;
+    margin-left: 7px;
+  }
+  .BoxMiniTextoVantagensUM {
+    width: 100%;
+
+    margin-left: -70px;
+  }
+  .BoxMiniTextoVantagensUM div p {
+    font-size: 13px;
+  }
+  .BoxMiniTextoVantagensDois {
+    width: 100%;
+
+    margin-left: -70px;
+  }
+  .BoxMiniTextoVantagensDois div p {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 359px) and (min-width: 320px){
+  .BoxGrande {
+    width: 100%;
+    height: 1200px;
+  }
+  .BoxMini {
+    left: 20px;
+    width: 90%;
+    height: 1200px;
+  }
+  .FundoTextoEscolher {
+    width: 90%;
+    margin: auto;
+  }
+  .FundoTextoEscolher p {
+    font-size: 18px;
+  }
+  .boxDasDivs {
+    display: block;
+  }
+  .fotoFundo {
+    width: 98%;
+    height: 300px;
+    margin: auto;
+  }
+  .FotoEcolher {
+    height: 300px;
+  }
+  .vantagens {
+    display: block;
+  }
+  .vantagensEsquerdas {
+    width: 100%;
+    height: auto;
+    margin-left: 7px;
+  }
+  .vantagensDireitas {
+    width: 100%;
+    height: auto;
+    margin-left: 7px;
+  }
+  .BoxMiniTextoVantagensUM {
+    width: 100%;
+
+    margin-left: -70px;
+  }
+  .BoxMiniTextoVantagensUM div p {
+    font-size: 13px;
+  }
+  .BoxMiniTextoVantagensDois {
+    width: 100%;
+
+    margin-left: -70px;
+  }
+  .BoxMiniTextoVantagensDois div p {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 884px) and (min-width: 768px) {
+  .BoxGrande {
+    width: 100%;
+    height: 120vh;
+  }
+  .BoxMini {
+    width: 90%;
+    left: 37px;
+    height: 120vh;
+  }
+  .boxDasDivs {
+    display: block;
+  }
+  .fotoFundo {
+    width: 98%;
+    height: 400px;
+    margin: auto;
+  }
+  .FotoEcolher {
+    height: 400px;
+  }
+  .FundoTextoEscolher {
+    text-align: center;
+    padding-top: 10px;
+  }
+  .vantagensEsquerdas {
+    width: 50%;
+    height: auto;
+    margin-left: -50px;
+  }
+  .vantagensDireitas {
+    width: 50%;
+    height: auto;
+  }
+
+  .vantagens {
+    margin-top: 80px;
+  }
+
+  .BoxMiniTextoVantagensUM {
+    width: 100%;
+  }
+  .BoxMiniTextoVantagensUM div p {
+    font-size: 13px;
+  }
+  .BoxMiniTextoVantagensDois {
+    width: 100%;
+  }
+  .BoxMiniTextoVantagensDois div p {
+    font-size: 13px;
+  }
+}
