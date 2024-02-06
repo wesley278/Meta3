@@ -1,6 +1,6 @@
 import style from "./Escolha.module.css";
 import { FaCheck } from "react-icons/fa";
-import ImgPorque from '../../../img/ImgPorque.svg'
+import ImgPorque from '../../../img/ImgPorque.png'
 function Escolher() {
 
 

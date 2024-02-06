@@ -1,5 +1,5 @@
 import style from "./Foter.module.css";
-import Logo from "../../../img/LogoNova.svg";
+import Logo from "../../../img/LogoNova.png";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaCopyright } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";

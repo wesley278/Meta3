@@ -1,7 +1,7 @@
 import style from './Obras.module.css'
-import Obra1 from '../../../img/Obra1.svg'
-import Obra2 from '../../../img/Obra2.svg'
-import Obra3 from '../../../img/Obra3.svg'
+import Obra1 from '../../../img/Obra1.png'
+import Obra2 from '../../../img/Obra2.png'
+import Obra3 from '../../../img/Obra3.png'
 function Obras() {
   return (
    <div className={style.mainObras}>

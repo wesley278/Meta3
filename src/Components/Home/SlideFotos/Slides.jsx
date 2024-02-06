@@ -1,13 +1,13 @@
 import style from "./Slides.module.css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import PariSix from "../../../img/PariSixNOva.svg";
-import FundoBlu from "../../../img/FundoBlu.svg";
-import MecDonald from "../../../img/MecDonald.svg";
-import Mancao from "../../../img/Mancao.svg";
-import ParisixSegundo from "../../../img/ParisixSegundo.svg";
-import OticaSlide from "../../../img/OticaSlide.svg";
-import SantaCasa from "../../../img/SantaCasa.svg";
-import Nagumo from "../../../img/Nagumo.svg";
+import PariSix from "../../../img/PariSixNOva.png";
+import FundoBlu from "../../../img/FundoBlu.png";
+import MecDonald from "../../../img/MecDonald.png";
+import Mancao from "../../../img/Mancao.png";
+import ParisixSegundo from "../../../img/ParisixSegundo.png";
+import OticaSlide from "../../../img/OticaSlide.png";
+import SantaCasa from "../../../img/SantaCasa.png";
+import Nagumo from "../../../img/Nagumo.png";
 import { useState, useEffect } from "react";
 
 import "swiper/css";

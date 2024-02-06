@@ -1,5 +1,5 @@
 import style from './sobre.module.css'
-import ImageSobre from '../../../img/ImgSobre.svg'
+import ImageSobre from '../../../img/ImgSobre.png'
 
 
 
