@@ -1,6 +1,6 @@
 import style from "./Slides.module.css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import PariSix from "../../../img/PariSixNova.png";
+
 import FundoBlu from "../../../img/FundoBlu.png";
 import MecDonald from "../../../img/MecDonald.png";
 import Mancao from "../../../img/Mancao.png";
