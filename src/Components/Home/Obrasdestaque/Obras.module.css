@@ -71,7 +71,7 @@
 }
 @media only screen and (max-width: 430px) and (min-width: 360px){
     .mainObras{
-        height: 180vh;
+        height: 276vh;
         background-image: url(../../../img/FundoObrasMobile.png);
     }
     .TextoObras h4{

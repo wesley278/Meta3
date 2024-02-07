@@ -102,53 +102,66 @@
     text-align: center;
 }
 @media only screen and (max-width: 430px) and (min-width: 360px) {
-.Boxsobre{
-    width: 100%;
-    display: block;
-    height: auto;
-}
-.Boxfundoimg{
-    width: 100%;
-    margin: auto;
-    text-align: center;
-  
-}
-.BoxExperienciaSobre{
-    top: 10px;
-    width: 50%;
-    position: absolute;
+    .Boxsobre{
+        width: 100%;
+        display: block;
+        height: auto;
+        margin: auto;
+    }
+    .Boxfundoimg .FotoSobre{
+        width: 100%;
+        
 
-}
-.FotoSobre{
-    display: block;
-    text-align: center;
-    width: 90%;
-    height: auto;
-    padding: 20px 0;
-}
-
-.QuadradoAmarelo{
-   display: none;
-}
-.Boximg{
-    width: 100%;
-   
-    height: auto;
-    margin-left: 20px;
-}
-.BoxTextoSobre{
-    width: 100%;
- 
-    text-align: center;
-}
-.MiniBoxTexto h5{
-    font-size: 16px;
-
-}
-.entreContato{
-    width: 70%;
-    font-size: 17px
-}
+    }
+    .Boxfundoimg{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+      
+    }
+    .BoxExperienciaSobre{
+        top: 10px;
+        width: 40%;
+        height: 70px;
+        position: absolute;
+    
+    }
+    .BoxExperienciaSobre h1{
+        font-size: 30px;
+    }
+    .BoxExperienciaSobre p{
+        font-size: 10px;
+    }
+    .FotoSobre{
+        display: block;
+        text-align: center;
+        width: 90%;
+        height: auto;
+        padding: 20px 0;
+    }
+    
+    .QuadradoAmarelo{
+       display: none;
+    }
+    .Boximg{
+        width: 100%;
+       
+        height: auto;
+        margin-left: 20px;
+    }
+    .BoxTextoSobre{
+        width: 100%;
+     
+        text-align: center;
+    }
+    .MiniBoxTexto h5{
+        font-size: 16px;
+    
+    }
+    .entreContato{
+        width: 70%;
+        font-size: 17px
+    }
 }
 @media only screen and (max-width: 359px) and (min-width: 320px){
     .Boxsobre{
