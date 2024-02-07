@@ -17,6 +17,7 @@ const handleWhatsappClick = () => {
 function FundoHeader() {
 
   return (
+    <div className={style.BoxFundo}>
     <div className={style.fundo} id="/">
     <div className={style.Boxtextocomeco}>
         <p className={style.Primerotexto}>
@@ -30,6 +31,7 @@ function FundoHeader() {
           </button>
         </div>
       </div>
+    </div>
     </div>
   );
 }

@@ -194,15 +194,17 @@
 @media only screen and (max-width: 359px) and (min-width: 320px){
   .BoxGrande {
     width: 100%;
-    height: 1200px;
+    height: 1350px;
   }
   .BoxMini {
     left: 20px;
     width: 90%;
-    height: 1200px;
+    height: 1300px; 
   }
   .FundoTextoEscolher {
     width: 90%;
+    height: auto  ;
+
     margin: auto;
   }
   .FundoTextoEscolher p {
@@ -213,18 +215,22 @@
   }
   .fotoFundo {
     width: 98%;
-    height: 300px;
+    height: 210px;
     margin: auto;
+
   }
   .FotoEcolher {
-    height: 300px;
+    height: 200px;
   }
   .vantagens {
     display: block;
+    background: #ffe500;
+    margin-top: -140px;
   }
   .vantagensEsquerdas {
     width: 100%;
     height: auto;
+    
     margin-left: 7px;
   }
   .vantagensDireitas {
@@ -234,19 +240,24 @@
   }
   .BoxMiniTextoVantagensUM {
     width: 100%;
-
+    padding-bottom: 20px;
     margin-left: -70px;
+    
   }
   .BoxMiniTextoVantagensUM div p {
-    font-size: 13px;
+    font-size: 11px;
+  }
+  .Divicone{
+    margin-right: 10px;
   }
   .BoxMiniTextoVantagensDois {
     width: 100%;
-
+    margin-top: 10px;
+    
     margin-left: -70px;
   }
   .BoxMiniTextoVantagensDois div p {
-    font-size: 13px;
+    font-size: 11 px;
   }
 }
 @media only screen and (max-width: 884px) and (min-width: 768px) {

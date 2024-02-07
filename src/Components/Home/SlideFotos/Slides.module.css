@@ -90,13 +90,17 @@
 @media only screen and (max-width: 359px) and (min-width: 320px){
   .MainAll{
     width: 100%;
-    height: 110vh;
+    height: 105vh;
   }
   .MainSlide{
-    margin-top: 187vh;
+    margin-top: 197vh;
     width: 98%;
-    height: 69vh;
+    height: 56vh;
    
+  }
+  .MainSlide .slideItem{
+    width: 90%;
+    height: 190px;
   }
   .MainSlide h1{
     width: 77%;
@@ -121,6 +125,7 @@
     height: 55vh;
     margin-bottom: 100px;
   }
+  
   .MainSlide h1{
     width: 77%;
     font-size: 30px;

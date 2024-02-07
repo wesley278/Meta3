@@ -155,18 +155,31 @@
         width: 100%;
         display: block;
         height: auto;
+        margin: auto;
+    }
+    .Boxfundoimg .FotoSobre{
+        width: 100%;
+        
+
     }
     .Boxfundoimg{
-        width: 100%;
+        width: 80%;
         margin: auto;
         text-align: center;
       
     }
     .BoxExperienciaSobre{
         top: 10px;
-        width: 50%;
+        width: 40%;
+        height: 70px;
         position: absolute;
     
+    }
+    .BoxExperienciaSobre h1{
+        font-size: 30px;
+    }
+    .BoxExperienciaSobre p{
+        font-size: 10px;
     }
     .FotoSobre{
         display: block;

@@ -1,10 +1,15 @@
 
+.BoxFundo{
+    width: 100%;
+   box-sizing: border-box;
+}
 .fundo{
     width: 100%;
-  
     height: 120vh;
     background-image: url(../../../img/Fundoheader.png);
     background-repeat: no-repeat;
+    
+   
 }.Boxtextocomeco{
     width: 68%;
     height: 200px;
@@ -50,7 +55,6 @@
     .fundo{
         display: block;
         background-repeat: no-repeat;
-        
         width: 100%;
         height: 90vh;
         background-image: url(../../../img/FundoMobile.png);
@@ -84,10 +88,10 @@
         .fundo{
             display: block;
             background-repeat: no-repeat;
-            
             width: 100%;
-            height: 130vh;
+            height: 110vh;
             background-image: url(../../../img/FundoMobile.png);
+           
             
         }
         .Boxtextocomeco{

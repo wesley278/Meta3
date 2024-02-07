@@ -1,5 +1,5 @@
 .Navbar {
-  width: 100%;
+    width: 100%;
     height: 90px;
     display: flex;
     justify-content: space-between;
@@ -24,12 +24,15 @@
   .Navbar:hover::after{
     left: 100%;
   }
-  
+  .Navbar > .nav-logo > img{
+    width: 100%;
+  }
   .Navbar > .nav-logo {
-    font-weight: 700;
-    font-size: 21px;
+    width: 22%;
+    font-size: 2px;
     margin: 15px;
     color: #ffffff;
+    
   }
   .Navbar > .nav-items > ul
   {
@@ -72,7 +75,12 @@
   }
   
   @media (max-width: 884px) {
+    .Navbar > .nav-logo{
+        width: 50%;
+    }
     .Navbar > .nav-items {
+      
+      width: 100%;
       position: absolute;
       top: 96px;
       display: flex;
@@ -80,7 +88,7 @@
      background-color: rgba(3, 2, 2, 0.815);
     backdrop-filter: blur(50px);
       left: 0;
-      width: 100%;
+      
       height: auto;
       transform: translateX(-100%);
       transition: all .45s;
