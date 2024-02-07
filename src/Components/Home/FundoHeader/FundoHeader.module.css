@@ -89,7 +89,7 @@
             display: block;
             background-repeat: no-repeat;
             width: 100%;
-            height: 110vh;
+            height: 120vh;
             background-image: url(../../../img/FundoMobile.png);
            
             
@@ -98,6 +98,7 @@
             display: block; 
             height: auto;
             width: 100%;
+            
             
         }
         .Primerotexto{

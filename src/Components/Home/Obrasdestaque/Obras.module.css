@@ -71,7 +71,7 @@
 }
 @media only screen and (max-width: 430px) and (min-width: 360px){
     .mainObras{
-        height: 276vh;
+        height: 216vh;
         background-image: url(../../../img/FundoObrasMobile.png);
     }
     .TextoObras h4{
@@ -92,7 +92,7 @@
 }
 @media only screen and (max-width: 359px) and (min-width: 320px){
     .mainObras{
-        height: 276vh;
+        height: 287vh;
         background-image: url(../../../img/FundoObrasMobile.png);
     }
     .TextoObras h4{
