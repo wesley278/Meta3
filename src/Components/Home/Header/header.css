@@ -31,8 +31,14 @@
     margin: 15px;
     color: #ffffff;
   }
-  
-  .Navbar > .nav-items > a {
+  .Navbar > .nav-items > ul
+  {
+    display: flex;
+ 
+    list-style: none;
+  }
+  .Navbar > .nav-items > ul > li {
+    
     color: #ffffff;
     font-size: 16px;
     text-decoration: none;
@@ -42,11 +48,11 @@
     cursor: pointer;
   }
   
-  .Navbar > .nav-items > a:hover {
+  .Navbar > .nav-items > ul > li:hover {
     opacity: 1;
   }
   
-  .Navbar > .nav-items > a::before {
+  .Navbar > .nav-items > ul > li::before {
     content: "";
     position: absolute;
     left: 0;
@@ -57,7 +63,7 @@
     transition: all 0.45s;
   }
   
-  .Navbar > .nav-items > a:hover::before {
+  .Navbar > .nav-items >ul  li:hover::before {
     width: 100%;
   }
   
@@ -81,8 +87,10 @@
       
       
     }
-  
-    .Navbar > .nav-items > a::before {
+    .Navbar > .nav-items > ul{
+      display: block;
+    }
+    .Navbar > .nav-items > ul > li::before {
         background: transparent;
     }
   

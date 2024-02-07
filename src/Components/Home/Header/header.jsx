@@ -7,22 +7,23 @@ const Header = () => {
   return (
     <div className="Navbar">
       <span className="nav-logo"><img src={Logo} alt="" /></span>
-      <div className={`nav-items ${isOpen && "open"}`}>
-        <a href="#">  <Link to="/" spy={true} smooth={true} offset={50} duration={500}>
+      <div className={`nav-items ${isOpen && "open"}`}> <ul>
+        <li> <Link to="/" spy={true} smooth={true} offset={50} duration={500}> 
                 Home
-              </Link></a>
-        <a  href="#"><Link to="sobre" spy={true} smooth={true} offset={50} duration={500}>
+              </Link></li>
+        <li><Link to="sobre" spy={true} smooth={true} offset={50} duration={500}>
                 sobre
-              </Link></a>
-        <a  href="#">  <Link to="servicos" spy={true} smooth={true} offset={50} duration={500}>
+              </Link></li>
+        <li>  <Link to="servicos" spy={true} smooth={true} offset={50} duration={500}>
                 Serviços
-              </Link></a>
-        <a  href="#">  <Link to="galeria" spy={true} smooth={true} offset={50} duration={500}>
+              </Link></li>
+        <li>  <Link to="galeria" spy={true} smooth={true} offset={50} duration={500}>
                 Galeria
-              </Link></a>
-        <a  href="#">  <Link to="contato" spy={true} smooth={true} offset={50} duration={500}>
+              </Link></li>
+        <li><Link to="contato" spy={true} smooth={true} offset={50} duration={500}>
                 Contato
-              </Link></a>
+              </Link></li>
+              </ul>
       </div>
       <div
         className={`nav-toggle ${isOpen && "open"}`}
