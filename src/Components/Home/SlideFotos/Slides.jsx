@@ -1,6 +1,6 @@
 import style from "./Slides.module.css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import PariSix from "../../../img/PariSixNova.jpg"
+import pari from "../../../img/pari.jpg"
 import FundoBlu from "../../../img/FundoBlu.png";
 import MecDonald from "../../../img/MecDonald.jpg";
 import Mancao from "../../../img/Mancao.jpg";
@@ -23,7 +23,7 @@ const  [slidePerView, setSlidePerView] = useState(3)
     { id: "2", Image: ParisixSegundo },
     { id: "3", Image: MecDonald },
     { id: "4", Image: Mancao },
-    { id: "5", Image: PariSix },
+    { id: "5", Image: pari },
     { id: "6", Image: OticaSlide },
     { id: "7", Image: FundoBlu },
     { id: "8", Image: Nagumo },
